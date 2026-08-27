@@ -1,4 +1,3 @@
-javascript
 const boton = document.getElementById("modoBtn");
 
 boton.addEventListener("click", () => {
