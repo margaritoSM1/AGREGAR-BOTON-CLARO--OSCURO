@@ -1,14 +1,9 @@
-/* Estilo general */
+/* Estilo base */
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
+  padding: 20px;
   transition: all 0.3s ease;
-}
-
-/* Modo oscuro (por defecto) */
-body.dark-mode {
-  background-color: #111;
-  color: #eee;
 }
 
 /* Modo claro */
@@ -17,7 +12,13 @@ body.light-mode {
   color: #111;
 }
 
-/* Estilo del botón */
+/* Modo oscuro */
+body.dark-mode {
+  background-color: #111;
+  color: #eee;
+}
+
+/* Botón */
 #modoBtn {
   background-color: red;
   color: white;
@@ -34,3 +35,4 @@ body.light-mode {
   color: red;
   box-shadow: 0 0 15px red;
 }
+
