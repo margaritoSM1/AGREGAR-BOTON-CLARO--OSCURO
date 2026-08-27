@@ -15,3 +15,6 @@ css
   color: red;
   box-shadow: 0 0 15px red;
 
+.modoOscuro {
+  background-color: #111;
+  color: #eee;
