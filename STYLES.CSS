@@ -1,1 +1,17 @@
+css
+#modoBtn {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+ border: none;
+ border-radius: 8px;
+ cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#modoBtn:hover {
+  background-color: black;
+  color: red;
+  box-shadow: 0 0 15px red;
 
